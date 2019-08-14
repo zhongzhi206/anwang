@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{150A0A8A-4FE8-42AF-9B48-66E7EEC1A99F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MovieInfo</RootNamespace>
+    <AssemblyName>MovieInfo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmInfo.Designer.cs">
+      <DependentUpon>AdmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdmInfozheng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmInfozheng.Designer.cs">
+      <DependentUpon>AdmInfozheng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DarkNetDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DarkNetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DarkNetDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DarkNetDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DarkNetDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DarkNetDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DarkNetDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DarkNetDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="MovieGuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieGuanLi.Designer.cs">
+      <DependentUpon>MovieGuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movielogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movielogin.Designer.cs">
+      <DependentUpon>Movielogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMain.Designer.cs">
+      <DependentUpon>MovieMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieQuery.Designer.cs">
+      <DependentUpon>MovieQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movietype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movietype.Designer.cs">
+      <DependentUpon>Movietype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieWeihu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieWeihu.Designer.cs">
+      <DependentUpon>MovieWeihu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMain.Designer.cs">
+      <DependentUpon>NewMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdmInfo.resx">
+      <DependentUpon>AdmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmInfozheng.resx">
+      <DependentUpon>AdmInfozheng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieGuanLi.resx">
+      <DependentUpon>MovieGuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movielogin.resx">
+      <DependentUpon>Movielogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMain.resx">
+      <DependentUpon>MovieMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieQuery.resx">
+      <DependentUpon>MovieQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movietype.resx">
+      <DependentUpon>Movietype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieWeihu.resx">
+      <DependentUpon>MovieWeihu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMain.resx">
+      <DependentUpon>NewMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DarkNetDataSet.xsc">
+      <DependentUpon>DarkNetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DarkNetDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DarkNetDataSet.xss">
+      <DependentUpon>DarkNetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet1.xsc">
+      <DependentUpon>DarkNetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DarkNetDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DarkNetDataSet1.xss">
+      <DependentUpon>DarkNetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet2.xsc">
+      <DependentUpon>DarkNetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DarkNetDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DarkNetDataSet2.xss">
+      <DependentUpon>DarkNetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet3.xsc">
+      <DependentUpon>DarkNetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DarkNetDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DarkNetDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DarkNetDataSet3.xss">
+      <DependentUpon>DarkNetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

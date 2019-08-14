@@ -1,0 +1,134 @@
+F:\窗体学习\MovieInfo\MovieInfo\bin\Debug\MovieInfo.exe.config
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.csprojResolveAssemblyReference.cache
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.Cache
+F:\窗体学习\MovieInfo\MovieInfo\bin\Debug\MovieInfo.exe
+F:\窗体学习\MovieInfo\MovieInfo\bin\Debug\MovieInfo.pdb
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.exe
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.pdb
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.MovieWEihu.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+F:\窗体学习\MovieInfo\MovieInfo\obj\Debug\MovieInfo.NewAdd.resources
+D:\桌面\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe.config
+D:\桌面\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe
+D:\桌面\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.pdb
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csprojAssemblyReference.cache
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.cache
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.exe
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe.config
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.exe
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.pdb
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.pdb
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csprojResolveAssemblyReference.cache
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.Cache
+C:\Users\22053\Desktop\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+D:\桌面\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe.config
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.exe
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.pdb
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.exe
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\bin\Debug\MovieInfo.pdb
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csprojResolveAssemblyReference.cache
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+C:\Users\22053\Desktop\花儿\百亿项目\后台\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.Cache
+C:\Users\22053\Desktop\后台2\MovieInfo\bin\Debug\MovieInfo.exe.config
+C:\Users\22053\Desktop\后台2\MovieInfo\obj\Debug\MovieInfo.exe
+C:\Users\22053\Desktop\后台2\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\百亿项目\后台2\MovieInfo\bin\Debug\MovieInfo.exe.config
+D:\桌面\百亿项目\后台2\MovieInfo\bin\Debug\MovieInfo.exe
+D:\桌面\百亿项目\后台2\MovieInfo\bin\Debug\MovieInfo.pdb
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.csprojAssemblyReference.cache
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.cache
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.exe
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.TicketToAccept.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.SeatMain.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.csprojAssemblyReference.cache
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.SeatMain.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.TicketToAccept.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.cache
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.exe
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\暗网影院最终版\后台2\MovieInfo\bin\Debug\MovieInfo.exe.config
+D:\桌面\暗网影院最终版\后台2\MovieInfo\bin\Debug\MovieInfo.exe
+D:\桌面\暗网影院最终版\后台2\MovieInfo\bin\Debug\MovieInfo.pdb
+D:\桌面\暗网影院最终版\后台2\MovieInfo\obj\Debug\MovieInfo.FilmSchedule.resources
+D:\桌面\百亿项目\后台2\MovieInfo\obj\Debug\MovieInfo.FilmSchedule.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\bin\Debug\MovieInfo.exe.config
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\bin\Debug\MovieInfo.exe
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\bin\Debug\MovieInfo.pdb
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.csprojAssemblyReference.cache
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.FilmArrange.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.FilmSchedule.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.SeatMain.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.TicketToAccept.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.cache
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.exe
+D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.pdb

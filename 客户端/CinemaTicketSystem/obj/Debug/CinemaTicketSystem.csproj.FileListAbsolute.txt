@@ -1,0 +1,136 @@
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.dll
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.xml
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+F:\C#\WinForm\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.dll
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.xml
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+D:\桌面\暗网影院项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Fantan.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pikaqiu.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.yingyuejia.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.dll
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\CSkin.xml
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Fantan.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pikaqiu.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.yingyuejia.resources
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\测试\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.RetrievePassword.resources
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\SQK_Ui.dll
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\bin\Debug\SQK_Ui.pdb
+D:\桌面\百亿项目\CinemaTicketSystem\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Fantan.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.RetrievePassword.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pikaqiu.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.yingyuejia.resources
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\CSkin.dll
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\SQK_Ui.dll
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\CSkin.xml
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\bin\Debug\SQK_Ui.pdb
+D:\桌面\百亿项目\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\CSkin.dll
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\SQK_Ui.dll
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\CSkin.xml
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\bin\Debug\SQK_Ui.pdb
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Fantan.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.RetrievePassword.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pikaqiu.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.yingyuejia.resources
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目 - 副本\新建文件夹\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe.config
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\CinemaTicketSystem.pdb
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\CSkin.dll
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\SQK_Ui.dll
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\CSkin.xml
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\bin\Debug\SQK_Ui.pdb
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csprojAssemblyReference.cache
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Fantan.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.MainForm.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.Properties.Resources.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.RetrievePassword.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.SkinForm.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.UserLogin.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.F_xiugai.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pikaqiu.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.yingyuejia.resources
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.GenerateResource.cache
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CoreCompileInputs.cache
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.csproj.CopyComplete
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.exe
+D:\桌面\百亿项目 - 副本\客户端\CinemaTicketSystem\obj\Debug\CinemaTicketSystem.pdb
