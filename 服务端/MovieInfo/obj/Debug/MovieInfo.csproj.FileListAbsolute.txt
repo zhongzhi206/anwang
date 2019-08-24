@@ -132,3 +132,25 @@ D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.Gen
 D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
 D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.exe
 D:\桌面\百亿项目 - 副本\后台2\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\anwang\服务端\MovieInfo\bin\Debug\MovieInfo.exe.config
+D:\桌面\anwang\服务端\MovieInfo\bin\Debug\MovieInfo.exe
+D:\桌面\anwang\服务端\MovieInfo\bin\Debug\MovieInfo.pdb
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.csprojAssemblyReference.cache
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.AdmInfo.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FilmArrange.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FilmSchedule.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.NewMain.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.Properties.Resources.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.SeatMain.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.TicketToAccept.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.Usermain.resources
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateResource.cache
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.exe
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.pdb

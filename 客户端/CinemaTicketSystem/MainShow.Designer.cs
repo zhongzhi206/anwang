@@ -153,9 +153,20 @@
             this.pl_OrderInfor = new System.Windows.Forms.Panel();
             this.bt_one = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btn_Tui = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dgv_dingdan = new System.Windows.Forms.DataGridView();
+            this.D_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.YH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DY_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.D_SeatInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tings = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PlayTimeo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SumPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.D_Sheet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GeneratedTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TicketingState = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.listView2 = new System.Windows.Forms.ListView();
             this.tp_UserInfor = new System.Windows.Forms.TabPage();
             this.btn_VIP = new System.Windows.Forms.Button();
@@ -171,17 +182,6 @@
             this.la_NiceName = new System.Windows.Forms.Label();
             this.la_Registration = new System.Windows.Forms.Label();
             this.la_name = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.D_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.YH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DY_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.D_SeatInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tings = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PlayTimeo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SumPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.D_Sheet = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GeneratedTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TicketingState = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cms_ShuaXin.SuspendLayout();
             this.pl_Login.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -219,9 +219,9 @@
             this.tb_UserOrder.SuspendLayout();
             this.pl_OrderInfor.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_dingdan)).BeginInit();
             this.tp_UserInfor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Min
@@ -299,7 +299,7 @@
             // 
             this.lb_Login.AutoSize = true;
             this.lb_Login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lb_Login.Font = new System.Drawing.Font("宋体", 12F);
+            this.lb_Login.Font = new System.Drawing.Font("SimSun", 12F);
             this.lb_Login.ForeColor = System.Drawing.Color.White;
             this.lb_Login.Location = new System.Drawing.Point(17, 12);
             this.lb_Login.Name = "lb_Login";
@@ -321,7 +321,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 12F);
+            this.label3.Font = new System.Drawing.Font("SimSun", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(12, 12);
             this.label3.Name = "label3";
@@ -355,7 +355,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 13F);
+            this.label4.Font = new System.Drawing.Font("SimSun", 13F);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(118, 13);
             this.label4.Name = "label4";
@@ -412,7 +412,7 @@
             this.tabControl1.Controls.Add(this.tb_UserOrder);
             this.tabControl1.Controls.Add(this.tp_UserInfor);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tabControl1.Font = new System.Drawing.Font("宋体", 12F);
+            this.tabControl1.Font = new System.Drawing.Font("SimSun", 12F);
             this.tabControl1.HeadBack = null;
             this.tabControl1.ImgTxtOffset = new System.Drawing.Point(0, 0);
             this.tabControl1.ItemSize = new System.Drawing.Size(130, 30);
@@ -427,7 +427,7 @@
             this.tabControl1.PageImagePosition = CCWin.SkinControl.SkinTabControl.ePageImagePosition.Left;
             this.tabControl1.PageNorml = null;
             this.tabControl1.PagePalace = true;
-            this.tabControl1.SelectedIndex = 1;
+            this.tabControl1.SelectedIndex = 5;
             this.tabControl1.Size = new System.Drawing.Size(1525, 790);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 1;
@@ -458,7 +458,7 @@
             // 
             this.lv_HotFilm.Alignment = System.Windows.Forms.ListViewAlignment.Left;
             this.lv_HotFilm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lv_HotFilm.Font = new System.Drawing.Font("宋体", 16F);
+            this.lv_HotFilm.Font = new System.Drawing.Font("SimSun", 16F);
             this.lv_HotFilm.ForeColor = System.Drawing.Color.Red;
             this.lv_HotFilm.Location = new System.Drawing.Point(22, 166);
             this.lv_HotFilm.Name = "lv_HotFilm";
@@ -471,7 +471,7 @@
             // lb_ReMen
             // 
             this.lb_ReMen.AutoSize = true;
-            this.lb_ReMen.Font = new System.Drawing.Font("宋体", 18F);
+            this.lb_ReMen.Font = new System.Drawing.Font("SimSun", 18F);
             this.lb_ReMen.ForeColor = System.Drawing.Color.Red;
             this.lb_ReMen.Location = new System.Drawing.Point(81, 84);
             this.lb_ReMen.Name = "lb_ReMen";
@@ -498,7 +498,7 @@
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("宋体", 9F);
+            this.label8.Font = new System.Drawing.Font("SimSun", 9F);
             this.label8.ForeColor = System.Drawing.Color.Gray;
             this.label8.Location = new System.Drawing.Point(453, 713);
             this.label8.Name = "label8";
@@ -522,7 +522,7 @@
             this.btn_Query.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_Query.FlatAppearance.BorderSize = 0;
             this.btn_Query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Query.Font = new System.Drawing.Font("宋体", 9F);
+            this.btn_Query.Font = new System.Drawing.Font("SimSun", 9F);
             this.btn_Query.ForeColor = System.Drawing.Color.White;
             this.btn_Query.Location = new System.Drawing.Point(490, 23);
             this.btn_Query.Name = "btn_Query";
@@ -536,7 +536,7 @@
             // 
             this.lv_FlimShow.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lv_FlimShow.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lv_FlimShow.Font = new System.Drawing.Font("宋体", 11F);
+            this.lv_FlimShow.Font = new System.Drawing.Font("SimSun", 11F);
             this.lv_FlimShow.FullRowSelect = true;
             this.lv_FlimShow.Location = new System.Drawing.Point(96, 229);
             this.lv_FlimShow.Name = "lv_FlimShow";
@@ -597,7 +597,7 @@
             // 
             this.button31.FlatAppearance.BorderSize = 0;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("宋体", 9F);
+            this.button31.Font = new System.Drawing.Font("SimSun", 9F);
             this.button31.Location = new System.Drawing.Point(626, 61);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(70, 25);
@@ -609,7 +609,7 @@
             // 
             this.button32.FlatAppearance.BorderSize = 0;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("宋体", 9F);
+            this.button32.Font = new System.Drawing.Font("SimSun", 9F);
             this.button32.Location = new System.Drawing.Point(554, 61);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(70, 25);
@@ -621,7 +621,7 @@
             // 
             this.button33.FlatAppearance.BorderSize = 0;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Font = new System.Drawing.Font("宋体", 9F);
+            this.button33.Font = new System.Drawing.Font("SimSun", 9F);
             this.button33.Location = new System.Drawing.Point(482, 61);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(70, 25);
@@ -633,7 +633,7 @@
             // 
             this.button34.FlatAppearance.BorderSize = 0;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("宋体", 9F);
+            this.button34.Font = new System.Drawing.Font("SimSun", 9F);
             this.button34.Location = new System.Drawing.Point(410, 61);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(70, 25);
@@ -645,7 +645,7 @@
             // 
             this.button35.FlatAppearance.BorderSize = 0;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("宋体", 9F);
+            this.button35.Font = new System.Drawing.Font("SimSun", 9F);
             this.button35.Location = new System.Drawing.Point(338, 61);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(70, 25);
@@ -657,7 +657,7 @@
             // 
             this.button36.FlatAppearance.BorderSize = 0;
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Font = new System.Drawing.Font("宋体", 9F);
+            this.button36.Font = new System.Drawing.Font("SimSun", 9F);
             this.button36.Location = new System.Drawing.Point(266, 61);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(70, 25);
@@ -669,7 +669,7 @@
             // 
             this.button37.FlatAppearance.BorderSize = 0;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("宋体", 9F);
+            this.button37.Font = new System.Drawing.Font("SimSun", 9F);
             this.button37.Location = new System.Drawing.Point(180, 61);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(84, 25);
@@ -681,7 +681,7 @@
             // 
             this.button38.FlatAppearance.BorderSize = 0;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Font = new System.Drawing.Font("宋体", 9F);
+            this.button38.Font = new System.Drawing.Font("SimSun", 9F);
             this.button38.Location = new System.Drawing.Point(82, 61);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(96, 25);
@@ -693,7 +693,7 @@
             // 
             this.button39.FlatAppearance.BorderSize = 0;
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("宋体", 9F);
+            this.button39.Font = new System.Drawing.Font("SimSun", 9F);
             this.button39.Location = new System.Drawing.Point(10, 61);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(70, 25);
@@ -705,7 +705,7 @@
             // 
             this.button21.FlatAppearance.BorderSize = 0;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("宋体", 9F);
+            this.button21.Font = new System.Drawing.Font("SimSun", 9F);
             this.button21.Location = new System.Drawing.Point(666, 10);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(70, 25);
@@ -717,7 +717,7 @@
             // 
             this.button22.FlatAppearance.BorderSize = 0;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("宋体", 9F);
+            this.button22.Font = new System.Drawing.Font("SimSun", 9F);
             this.button22.Location = new System.Drawing.Point(593, 10);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(70, 25);
@@ -729,7 +729,7 @@
             // 
             this.button23.FlatAppearance.BorderSize = 0;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("宋体", 9F);
+            this.button23.Font = new System.Drawing.Font("SimSun", 9F);
             this.button23.Location = new System.Drawing.Point(520, 10);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(70, 25);
@@ -741,7 +741,7 @@
             // 
             this.button24.FlatAppearance.BorderSize = 0;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("宋体", 9F);
+            this.button24.Font = new System.Drawing.Font("SimSun", 9F);
             this.button24.Location = new System.Drawing.Point(447, 10);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(70, 25);
@@ -753,7 +753,7 @@
             // 
             this.button25.FlatAppearance.BorderSize = 0;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("宋体", 9F);
+            this.button25.Font = new System.Drawing.Font("SimSun", 9F);
             this.button25.Location = new System.Drawing.Point(374, 10);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(70, 25);
@@ -765,7 +765,7 @@
             // 
             this.button26.FlatAppearance.BorderSize = 0;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("宋体", 9F);
+            this.button26.Font = new System.Drawing.Font("SimSun", 9F);
             this.button26.Location = new System.Drawing.Point(301, 10);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(70, 25);
@@ -777,7 +777,7 @@
             // 
             this.button27.FlatAppearance.BorderSize = 0;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("宋体", 9F);
+            this.button27.Font = new System.Drawing.Font("SimSun", 9F);
             this.button27.Location = new System.Drawing.Point(228, 10);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(70, 25);
@@ -789,7 +789,7 @@
             // 
             this.button28.FlatAppearance.BorderSize = 0;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("宋体", 9F);
+            this.button28.Font = new System.Drawing.Font("SimSun", 9F);
             this.button28.Location = new System.Drawing.Point(155, 10);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(70, 25);
@@ -801,7 +801,7 @@
             // 
             this.button29.FlatAppearance.BorderSize = 0;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Font = new System.Drawing.Font("宋体", 9F);
+            this.button29.Font = new System.Drawing.Font("SimSun", 9F);
             this.button29.Location = new System.Drawing.Point(82, 10);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(70, 25);
@@ -813,18 +813,19 @@
             // 
             this.button30.FlatAppearance.BorderSize = 0;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("宋体", 9F);
+            this.button30.Font = new System.Drawing.Font("SimSun", 9F);
             this.button30.Location = new System.Drawing.Point(9, 10);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(70, 25);
             this.button30.TabIndex = 10;
             this.button30.Text = "全部";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 9F);
+            this.label2.Font = new System.Drawing.Font("SimSun", 9F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label2.Location = new System.Drawing.Point(4, 69);
             this.label2.Name = "label2";
@@ -835,7 +836,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 9F);
+            this.label1.Font = new System.Drawing.Font("SimSun", 9F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Location = new System.Drawing.Point(4, 19);
             this.label1.Name = "label1";
@@ -920,7 +921,7 @@
             this.btn_Pay.AutoSize = true;
             this.btn_Pay.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_Pay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pay.Font = new System.Drawing.Font("宋体", 12F);
+            this.btn_Pay.Font = new System.Drawing.Font("SimSun", 12F);
             this.btn_Pay.ForeColor = System.Drawing.Color.White;
             this.btn_Pay.Location = new System.Drawing.Point(96, 6);
             this.btn_Pay.Name = "btn_Pay";
@@ -941,7 +942,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("宋体", 10F);
+            this.label36.Font = new System.Drawing.Font("SimSun", 10F);
             this.label36.ForeColor = System.Drawing.Color.Red;
             this.label36.Location = new System.Drawing.Point(7, 16);
             this.label36.Name = "label36";
@@ -965,7 +966,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("宋体", 10F);
+            this.label13.Font = new System.Drawing.Font("SimSun", 10F);
             this.label13.Location = new System.Drawing.Point(205, 22);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(43, 17);
@@ -975,7 +976,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("宋体", 10F);
+            this.label14.Font = new System.Drawing.Font("SimSun", 10F);
             this.label14.Location = new System.Drawing.Point(149, 22);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(59, 17);
@@ -985,7 +986,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("宋体", 10F);
+            this.label15.Font = new System.Drawing.Font("SimSun", 10F);
             this.label15.Location = new System.Drawing.Point(90, 22);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 17);
@@ -995,7 +996,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("宋体", 10F);
+            this.label16.Font = new System.Drawing.Font("SimSun", 10F);
             this.label16.Location = new System.Drawing.Point(61, 22);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(17, 17);
@@ -1005,7 +1006,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("宋体", 10F);
+            this.label17.Font = new System.Drawing.Font("SimSun", 10F);
             this.label17.Location = new System.Drawing.Point(8, 22);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(59, 17);
@@ -1028,7 +1029,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("宋体", 10F);
+            this.label29.Font = new System.Drawing.Font("SimSun", 10F);
             this.label29.Location = new System.Drawing.Point(269, 34);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(25, 17);
@@ -1038,7 +1039,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("宋体", 10F);
+            this.label30.Font = new System.Drawing.Font("SimSun", 10F);
             this.label30.Location = new System.Drawing.Point(242, 34);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(17, 17);
@@ -1048,7 +1049,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("宋体", 10F);
+            this.label27.Font = new System.Drawing.Font("SimSun", 10F);
             this.label27.Location = new System.Drawing.Point(125, 33);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(25, 17);
@@ -1058,7 +1059,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("宋体", 10F);
+            this.label28.Font = new System.Drawing.Font("SimSun", 10F);
             this.label28.Location = new System.Drawing.Point(93, 33);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(17, 17);
@@ -1069,7 +1070,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Red;
-            this.label18.Font = new System.Drawing.Font("宋体", 19F);
+            this.label18.Font = new System.Drawing.Font("SimSun", 19F);
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(157, 21);
             this.label18.Name = "label18";
@@ -1081,7 +1082,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Silver;
-            this.label19.Font = new System.Drawing.Font("宋体", 19F);
+            this.label19.Font = new System.Drawing.Font("SimSun", 19F);
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(7, 20);
             this.label19.Name = "label19";
@@ -1122,7 +1123,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("宋体", 8F);
+            this.label10.Font = new System.Drawing.Font("SimSun", 8F);
             this.label10.Location = new System.Drawing.Point(417, 28);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(14, 14);
@@ -1134,7 +1135,7 @@
             // 
             this.textBox1.AcceptsReturn = true;
             this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("宋体", 13F);
+            this.textBox1.Font = new System.Drawing.Font("SimSun", 13F);
             this.textBox1.Location = new System.Drawing.Point(489, 38);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -1346,7 +1347,7 @@
             // 
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.Red;
-            this.label33.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label33.Font = new System.Drawing.Font("Microsoft YaHei", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label33.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.label33.Location = new System.Drawing.Point(307, 41);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1358,7 +1359,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 14.25F);
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F);
             this.linkLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.linkLabel1.Location = new System.Drawing.Point(618, 547);
@@ -1373,7 +1374,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label32.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label32.ForeColor = System.Drawing.Color.Black;
             this.label32.Location = new System.Drawing.Point(622, 586);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1386,7 +1387,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("微软雅黑", 14.25F);
+            this.linkLabel4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F);
             this.linkLabel4.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.linkLabel4.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.linkLabel4.Location = new System.Drawing.Point(619, 333);
@@ -1401,7 +1402,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label31.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label31.ForeColor = System.Drawing.Color.Black;
             this.label31.Location = new System.Drawing.Point(619, 379);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1414,7 +1415,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.linkLabel2.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.linkLabel2.Location = new System.Drawing.Point(618, 131);
@@ -1429,7 +1430,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label26.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label26.ForeColor = System.Drawing.Color.Black;
             this.label26.Location = new System.Drawing.Point(619, 172);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1535,7 +1536,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("宋体", 18F);
+            this.label34.Font = new System.Drawing.Font("SimSun", 18F);
             this.label34.ForeColor = System.Drawing.Color.Red;
             this.label34.Location = new System.Drawing.Point(37, 382);
             this.label34.Name = "label34";
@@ -1546,7 +1547,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 10F);
+            this.label6.Font = new System.Drawing.Font("SimSun", 10F);
             this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label6.Location = new System.Drawing.Point(474, 357);
             this.label6.Name = "label6";
@@ -1556,7 +1557,7 @@
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("宋体", 10F);
+            this.label5.Font = new System.Drawing.Font("SimSun", 10F);
             this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label5.Location = new System.Drawing.Point(436, 357);
             this.label5.Name = "label5";
@@ -1584,7 +1585,7 @@
             // 
             this.tb_UsrFeedback.AcceptsReturn = true;
             this.tb_UsrFeedback.AcceptsTab = true;
-            this.tb_UsrFeedback.Font = new System.Drawing.Font("宋体", 13F);
+            this.tb_UsrFeedback.Font = new System.Drawing.Font("SimSun", 13F);
             this.tb_UsrFeedback.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.tb_UsrFeedback.Location = new System.Drawing.Point(444, 32);
             this.tb_UsrFeedback.Multiline = true;
@@ -1638,7 +1639,7 @@
             // bt_one
             // 
             this.bt_one.BackColor = System.Drawing.SystemColors.Highlight;
-            this.bt_one.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt_one.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_one.ForeColor = System.Drawing.Color.White;
             this.bt_one.Location = new System.Drawing.Point(6, 4);
             this.bt_one.Margin = new System.Windows.Forms.Padding(4);
@@ -1661,10 +1662,19 @@
             this.panel5.Size = new System.Drawing.Size(1525, 760);
             this.panel5.TabIndex = 9;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(594, 127);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(350, 371);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 7;
+            this.pictureBox10.TabStop = false;
+            // 
             // btn_Tui
             // 
             this.btn_Tui.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Tui.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Tui.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Tui.ForeColor = System.Drawing.Color.White;
             this.btn_Tui.Location = new System.Drawing.Point(210, 4);
             this.btn_Tui.Margin = new System.Windows.Forms.Padding(4);
@@ -1678,7 +1688,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(107, 4);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
@@ -1712,6 +1722,81 @@
             this.dgv_dingdan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_dingdan.Size = new System.Drawing.Size(1499, 662);
             this.dgv_dingdan.TabIndex = 0;
+            // 
+            // D_ID
+            // 
+            this.D_ID.DataPropertyName = "D_ID";
+            this.D_ID.HeaderText = "订单编号";
+            this.D_ID.Name = "D_ID";
+            this.D_ID.ReadOnly = true;
+            this.D_ID.Width = 120;
+            // 
+            // YH_ID
+            // 
+            this.YH_ID.DataPropertyName = "UserName";
+            this.YH_ID.HeaderText = "用户账号";
+            this.YH_ID.Name = "YH_ID";
+            this.YH_ID.ReadOnly = true;
+            this.YH_ID.Width = 120;
+            // 
+            // DY_ID
+            // 
+            this.DY_ID.DataPropertyName = "FileName";
+            this.DY_ID.HeaderText = "电影信息";
+            this.DY_ID.Name = "DY_ID";
+            this.DY_ID.ReadOnly = true;
+            this.DY_ID.Width = 150;
+            // 
+            // D_SeatInfo
+            // 
+            this.D_SeatInfo.DataPropertyName = "SeatInfo";
+            this.D_SeatInfo.HeaderText = "座位信息";
+            this.D_SeatInfo.Name = "D_SeatInfo";
+            this.D_SeatInfo.ReadOnly = true;
+            this.D_SeatInfo.Width = 190;
+            // 
+            // Tings
+            // 
+            this.Tings.DataPropertyName = "Ting";
+            this.Tings.HeaderText = "影厅";
+            this.Tings.Name = "Tings";
+            this.Tings.Width = 80;
+            // 
+            // PlayTimeo
+            // 
+            this.PlayTimeo.DataPropertyName = "PlayTime";
+            this.PlayTimeo.HeaderText = "放映时间";
+            this.PlayTimeo.Name = "PlayTimeo";
+            this.PlayTimeo.Width = 130;
+            // 
+            // SumPrice
+            // 
+            this.SumPrice.DataPropertyName = "SumPrice";
+            this.SumPrice.HeaderText = "总价";
+            this.SumPrice.Name = "SumPrice";
+            this.SumPrice.Width = 80;
+            // 
+            // D_Sheet
+            // 
+            this.D_Sheet.DataPropertyName = "Count";
+            this.D_Sheet.HeaderText = "订票数量";
+            this.D_Sheet.Name = "D_Sheet";
+            this.D_Sheet.ReadOnly = true;
+            this.D_Sheet.Width = 130;
+            // 
+            // GeneratedTime
+            // 
+            this.GeneratedTime.DataPropertyName = "GeneratedTime";
+            this.GeneratedTime.HeaderText = "生成时间";
+            this.GeneratedTime.Name = "GeneratedTime";
+            this.GeneratedTime.Width = 200;
+            // 
+            // TicketingState
+            // 
+            this.TicketingState.DataPropertyName = "TicketingState";
+            this.TicketingState.HeaderText = "支付状态";
+            this.TicketingState.Name = "TicketingState";
+            this.TicketingState.Width = 130;
             // 
             // listView2
             // 
@@ -1765,7 +1850,7 @@
             // la_ying
             // 
             this.la_ying.AutoSize = true;
-            this.la_ying.Font = new System.Drawing.Font("微软雅黑", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.la_ying.Font = new System.Drawing.Font("Microsoft YaHei", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.la_ying.Location = new System.Drawing.Point(495, 76);
             this.la_ying.Name = "la_ying";
             this.la_ying.Size = new System.Drawing.Size(437, 106);
@@ -1896,90 +1981,6 @@
             this.la_name.TabIndex = 5;
             this.la_name.Text = "账户：";
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(594, 127);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(350, 371);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 7;
-            this.pictureBox10.TabStop = false;
-            // 
-            // D_ID
-            // 
-            this.D_ID.DataPropertyName = "D_ID";
-            this.D_ID.HeaderText = "订单编号";
-            this.D_ID.Name = "D_ID";
-            this.D_ID.ReadOnly = true;
-            this.D_ID.Width = 120;
-            // 
-            // YH_ID
-            // 
-            this.YH_ID.DataPropertyName = "UserName";
-            this.YH_ID.HeaderText = "用户账号";
-            this.YH_ID.Name = "YH_ID";
-            this.YH_ID.ReadOnly = true;
-            this.YH_ID.Width = 120;
-            // 
-            // DY_ID
-            // 
-            this.DY_ID.DataPropertyName = "FileName";
-            this.DY_ID.HeaderText = "电影信息";
-            this.DY_ID.Name = "DY_ID";
-            this.DY_ID.ReadOnly = true;
-            this.DY_ID.Width = 150;
-            // 
-            // D_SeatInfo
-            // 
-            this.D_SeatInfo.DataPropertyName = "SeatInfo";
-            this.D_SeatInfo.HeaderText = "座位信息";
-            this.D_SeatInfo.Name = "D_SeatInfo";
-            this.D_SeatInfo.ReadOnly = true;
-            this.D_SeatInfo.Width = 190;
-            // 
-            // Tings
-            // 
-            this.Tings.DataPropertyName = "Ting";
-            this.Tings.HeaderText = "影厅";
-            this.Tings.Name = "Tings";
-            this.Tings.Width = 80;
-            // 
-            // PlayTimeo
-            // 
-            this.PlayTimeo.DataPropertyName = "PlayTime";
-            this.PlayTimeo.HeaderText = "放映时间";
-            this.PlayTimeo.Name = "PlayTimeo";
-            this.PlayTimeo.Width = 130;
-            // 
-            // SumPrice
-            // 
-            this.SumPrice.DataPropertyName = "SumPrice";
-            this.SumPrice.HeaderText = "总价";
-            this.SumPrice.Name = "SumPrice";
-            this.SumPrice.Width = 80;
-            // 
-            // D_Sheet
-            // 
-            this.D_Sheet.DataPropertyName = "Count";
-            this.D_Sheet.HeaderText = "订票数量";
-            this.D_Sheet.Name = "D_Sheet";
-            this.D_Sheet.ReadOnly = true;
-            this.D_Sheet.Width = 130;
-            // 
-            // GeneratedTime
-            // 
-            this.GeneratedTime.DataPropertyName = "GeneratedTime";
-            this.GeneratedTime.HeaderText = "生成时间";
-            this.GeneratedTime.Name = "GeneratedTime";
-            this.GeneratedTime.Width = 200;
-            // 
-            // TicketingState
-            // 
-            this.TicketingState.DataPropertyName = "TicketingState";
-            this.TicketingState.HeaderText = "支付状态";
-            this.TicketingState.Name = "TicketingState";
-            this.TicketingState.Width = 130;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -2044,10 +2045,10 @@
             this.tb_UserOrder.ResumeLayout(false);
             this.pl_OrderInfor.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_dingdan)).EndInit();
             this.tp_UserInfor.ResumeLayout(false);
             this.tp_UserInfor.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }

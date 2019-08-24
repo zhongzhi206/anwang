@@ -119,18 +119,11 @@ namespace CinemaTicketSystem
 
         public static object ExecuteScalar(string sqlStr)
         {
-            try
-            {
-                InitConnection();
-                SqlCommand cmd = new SqlCommand(sqlStr, Conn);
-                object rel = cmd.ExecuteScalar();
-                Conn.Close();
-                return rel;
-            }
-            catch (Exception)
-            {
-                
-            }
+            InitConnection();
+            SqlCommand cmd = new SqlCommand(sqlStr, Conn);
+            object rel = cmd.ExecuteScalar();
+            Conn.Close();
+            return rel;
         }
         //参数化sql语句
 

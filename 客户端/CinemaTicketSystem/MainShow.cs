@@ -1140,5 +1140,10 @@ namespace CinemaTicketSystem
             double cha = 300 - Convert.ToDouble(DBHelper.ExecuteScalar(sql));
             MessageBox.Show(string.Format("继续消费{0}元可升级为会员", cha));
         }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
