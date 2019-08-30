@@ -1,15 +1,9 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CinemaTicketSystem
@@ -252,7 +246,7 @@ namespace CinemaTicketSystem
                             }
                             else
                             {
-                                pictureBox4.Image = Image.FromFile(@"D:\桌面\百亿项目\项目图片\icon\登录.png");
+                                pictureBox4.Image = Image.FromFile(@"..\..\..\..\项目图片/icon/登录.png");
                             }
                         }
                         if (dt.Rows[0]["YH_NiceName"].ToString() == "")
@@ -276,7 +270,7 @@ namespace CinemaTicketSystem
 
             try
             {
-                string sql = string.Format("select * from OrderInfo where UserName='{0}' order by D_ID desc", UserName);
+                string sql = string.Format("select * from OrderInfo where UserName='{0}' and TicketingState <> '已删除' order by D_ID desc", UserName);
                 DataTable dt= DBHelper.GetDataTable(sql);
                 if (dt.Rows.Count>0)
                 {
@@ -917,7 +911,6 @@ namespace CinemaTicketSystem
                     {
                         str += btn.Text + " ";
                         btnText += btn.Text + " ";
-                        MessageBox.Show(str);
                         sql = string.Format("update FilmArrange set PP_Seat='{0}' where PP_Name='{1}' and PP_StartTime='{2}' and PP_Ting='{3}'", str, filname, Convert.ToDateTime(dateb+playTime).ToString(), ting);
                     }
                 }
@@ -1109,7 +1102,7 @@ namespace CinemaTicketSystem
             DialogResult result = MessageBox.Show("是否删除该订单", "订单提醒:", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (result == DialogResult.OK)
             {
-                string sql = string.Format("delete  from OrderInfo where D_ID='{0}'", dgv_dingdan.SelectedRows[0].Cells["D_ID"].Value.ToString());
+                string sql = string.Format("update OrderInfo set TicketingState='已删除' where D_ID='{0}'", dgv_dingdan.SelectedRows[0].Cells["D_ID"].Value.ToString());
                 DBHelper.ExecuteNoneQuery(sql);
                 UserInfor();
             }
