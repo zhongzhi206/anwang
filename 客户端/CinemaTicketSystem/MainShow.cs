@@ -31,7 +31,7 @@ namespace CinemaTicketSystem
             lv_HotFilm.Clear();
             try
             {
-                string sql = "select  top 6 PP_Name  from FilmArrange group by DY_Name";
+                string sql = "select  top 6 PP_Name  from FilmArrange group by PP_Name";
                 DataTable dt = DBHelper.GetDataTable(sql);
                 ImageList imageList = new ImageList();
                 imageList.ImageSize = new Size(1, 35);
@@ -242,7 +242,7 @@ namespace CinemaTicketSystem
                             if (UserName == str)
                             {
                                  Images(path, pictureBox4);
-                                break;
+                                 break;
                             }
                             else
                             {
@@ -818,10 +818,10 @@ namespace CinemaTicketSystem
                     break;
                 }
             }
+            
             try
             {
-                string sql = string.Format("SELECT * FROM  FilmArrange ,MovieInfo where PP_Name='{0}'", name,Convert.ToDateTime(dateb + playTime).ToString());
-                MessageBox.Show(Convert.ToDateTime(dateb + playTime).ToString());
+                string sql = string.Format("SELECT * FROM  FilmArrange ,MovieInfo where PP_Name='{0}'", name);
                 DataTable dt = DBHelper.GetDataTable(sql);
                 label12.Text = dt.Rows[0]["DY_Time"].ToString() + "分钟";
                 filname = dt.Rows[0]["PP_Name"].ToString();
@@ -895,7 +895,6 @@ namespace CinemaTicketSystem
             string sql = null;
             string yi = string.Format("select PP_Seat from FilmArrange where PP_Name='{0}'and PP_StartTime='{1}' and PP_Ting='{2}'", filname, Convert.ToDateTime(dateb+playTime).ToString("yyyy-MM-dd HH:mm:ss"),ting);
             DataTable dt = DBHelper.GetDataTable(yi);
-            MessageBox.Show(dt.Rows.Count.ToString());
             if (dt.Rows.Count > 0)
             {
                 str = dt.Rows[0]["PP_Seat"].ToString();

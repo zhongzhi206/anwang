@@ -102,6 +102,9 @@ namespace MovieInfo
         }
         private void cb_FilmName_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string sql = string.Format("select DY_Time from MovieInfo where DY_Name='{0}'", cb_FilmName.Text);
+            DataTable dt = DBHelper.GetDataTable(sql);
+            label5.Text = dt.Rows[0]["DY_Time"].ToString()+"分钟";
             dtp_PlayTime_ValueChanged(null, null);
             DirectoryInfo info = new DirectoryInfo(@"..\..\..\..\项目图片/电影海报");
             string path;
