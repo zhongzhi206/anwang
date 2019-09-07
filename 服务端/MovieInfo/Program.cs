@@ -16,7 +16,7 @@ namespace MovieInfo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FilmArrange());
+            Application.Run(new FilmSchedule());
         }
     }
 }

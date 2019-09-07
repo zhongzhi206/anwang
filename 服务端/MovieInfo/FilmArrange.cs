@@ -44,11 +44,25 @@ namespace MovieInfo
 
         private void bt_Add_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (cb_FilmName.Text == "" || tb_price.Text == "" || cb_Ting.Text == "" || dtp_PlayTime.Text == "")
+                {
+                    MessageBox.Show("添加的影片数据不能为空！");
+                }
+
+            }
+            catch (Exception)
+            {
+
+            }
+
+
             //查询当前添加的电影时长
             string duration = string.Format("select DY_Time from MovieInfo where DY_Name='{0}'", cb_FilmName.Text);
             DataTable durations = DBHelper.GetDataTable(duration);
             //计算出当前排片电影的结束时间
-            string endTime=Convert.ToDateTime(dtp_PlayTime.Text).AddMinutes(Convert.ToDouble(durations.Rows[0]["DY_Time"].ToString())).ToString();
+            string endTime = Convert.ToDateTime(dtp_PlayTime.Text).AddMinutes(Convert.ToDouble(durations.Rows[0]["DY_Time"].ToString())).ToString();
             //比较当前时间与添加时间，
             DateTime date2 = Convert.ToDateTime(dtp_PlayTime.Text);
             if (DateTime.Compare(date2, DateTime.Now) < 0)
@@ -57,15 +71,15 @@ namespace MovieInfo
                 return;
             }
             //筛选出当前添加时间段是否安排过影片
-            string startTimeFanWei = string.Format("select PP_ID from FilmArrange where PP_Ting='{0}' and PP_StartTime BETWEEN '{1}' and '{2}' or PP_EndTime between '{1}' and '{2}'", cb_Ting.Text, dtp_PlayTime.Text,endTime);
+            string startTimeFanWei = string.Format("select PP_ID from FilmArrange where PP_Ting='{0}' and PP_StartTime BETWEEN '{1}' and '{2}' or PP_EndTime between '{1}' and '{2}'", cb_Ting.Text, dtp_PlayTime.Text, endTime);
             DataTable dt = DBHelper.GetDataTable(startTimeFanWei);
-            if (dt.Rows.Count>0)
+            if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("该影厅该时间段已有安排影片");
                 return;
             }
-            
-            string add = string.Format("insert FilmArrange values('{0}','{1}','{2}','{3}','','{4}')", cb_FilmName.Text, dtp_PlayTime.Text, endTime,cb_Ting.Text,tb_price.Text);
+
+            string add = string.Format("insert FilmArrange values('{0}','{1}','{2}','{3}','','{4}')", cb_FilmName.Text, dtp_PlayTime.Text, endTime, cb_Ting.Text, tb_price.Text);
             if (!DBHelper.ExecuteNoneQuery(add))
             {
                 MessageBox.Show("添加失败");
@@ -104,7 +118,7 @@ namespace MovieInfo
         {
             string sql = string.Format("select DY_Time from MovieInfo where DY_Name='{0}'", cb_FilmName.Text);
             DataTable dt = DBHelper.GetDataTable(sql);
-            label5.Text = dt.Rows[0]["DY_Time"].ToString()+"分钟";
+            label5.Text = dt.Rows[0]["DY_Time"].ToString() + "分钟";
             dtp_PlayTime_ValueChanged(null, null);
             DirectoryInfo info = new DirectoryInfo(@"..\..\..\..\项目图片/电影海报");
             string path;
@@ -130,7 +144,27 @@ namespace MovieInfo
         {
             string sql = string.Format("select DY_Time from MovieInfo where DY_Name='{0}'", cb_FilmName.Text);
             DataTable dt = DBHelper.GetDataTable(sql);
-            label3.Text= Convert.ToDateTime(dtp_PlayTime.Text).AddMinutes(Convert.ToDouble(dt.Rows[0]["DY_Time"].ToString())).ToString();
+            label3.Text = Convert.ToDateTime(dtp_PlayTime.Text).AddMinutes(Convert.ToDouble(dt.Rows[0]["DY_Time"].ToString())).ToString();
+        }
+
+        private void dgv_Film_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            try
+            {
+                cb_FilmName.Text = dgv_Film.SelectedRows[0].Cells[1].Value.ToString();
+                cb_Ting.Text = dgv_Film.SelectedRows[0].Cells[5].Value.ToString();
+                cb_Ting.Text = dgv_Film.SelectedRows[0].Cells[4].Value.ToString();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void bt_Update_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

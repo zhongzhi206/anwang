@@ -92,7 +92,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label12.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.Location = new System.Drawing.Point(54, 529);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(55, 15);
@@ -102,7 +102,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.Location = new System.Drawing.Point(54, 489);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(55, 15);
@@ -125,7 +125,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label10.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label10.Location = new System.Drawing.Point(266, 449);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(87, 15);
@@ -145,7 +145,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(603, 415);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 15);
@@ -168,6 +168,7 @@
             this.dgv_Film.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_Film.Size = new System.Drawing.Size(1153, 331);
             this.dgv_Film.TabIndex = 35;
+            this.dgv_Film.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Film_CellClick);
             this.dgv_Film.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Film_CellContentClick);
             // 
             // PP_ID
@@ -210,7 +211,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(38, 456);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 15);
@@ -228,17 +229,18 @@
             // 
             // bt_Update
             // 
-            this.bt_Update.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt_Update.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_Update.Location = new System.Drawing.Point(271, 589);
             this.bt_Update.Name = "bt_Update";
             this.bt_Update.Size = new System.Drawing.Size(114, 35);
             this.bt_Update.TabIndex = 38;
             this.bt_Update.Text = "修改";
             this.bt_Update.UseVisualStyleBackColor = true;
+            this.bt_Update.Click += new System.EventHandler(this.bt_Update_Click);
             // 
             // bt_Add
             // 
-            this.bt_Add.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt_Add.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_Add.Location = new System.Drawing.Point(125, 589);
             this.bt_Add.Name = "bt_Add";
             this.bt_Add.Size = new System.Drawing.Size(114, 35);
@@ -250,7 +252,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(266, 529);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 15);
@@ -260,7 +262,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(366, 529);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 15);
@@ -269,7 +271,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(268, 486);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 15);
@@ -279,7 +281,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(368, 486);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 15);

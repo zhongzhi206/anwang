@@ -37,7 +37,7 @@ namespace MovieInfo
                 string sql = string.Format("update  AdmInfo set Name='{0}',Pwd='{1}',Zhiwu='{2}' where ID='{3}'", tb_name.Text, tb_pwd.Text, tb_zhiwu.Text, dvg_one.SelectedRows[0].Cells["ID"].Value.ToString());
                 if (DBHelper.ExecuteNoneQuery(sql))
                 {
-                    MessageBox.Show("修改成功");
+                    MessageBox.Show("修改成功！");
                     tb_zhiwu.Text = "";
                     tb_pwd.Text = "";
                     tb_name.Text = "";
@@ -76,7 +76,7 @@ namespace MovieInfo
                 }
                 else
                 {
-                    MessageBox.Show("添加失败                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ！");
+                    MessageBox.Show("添加失败！");
                 }
             }
             catch (Exception)
