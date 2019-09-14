@@ -61,5 +61,35 @@ namespace MovieInfo
         {
 
         }
+
+        private void 排片管理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FilmArrange movieWeihu = new FilmArrange();
+            movieWeihu.Show();
+        }
+
+        private void 影片库ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FilmArrange filmArrange = new FilmArrange();
+            filmArrange.Show();
+        }
+
+        private void 影厅维护ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SeatMain seatMain = new SeatMain();
+            seatMain.Show();
+        }
+
+        private void 订单ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TicketToAccept ticketToAccept = new TicketToAccept();
+            ticketToAccept.Show();
+        }
+
+        private void 票房查询ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BoxOffice boxOffice = new BoxOffice();
+            boxOffice.Show();
+        }
     }
 }

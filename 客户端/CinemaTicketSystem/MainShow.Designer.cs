@@ -427,7 +427,7 @@
             this.tabControl1.PageImagePosition = CCWin.SkinControl.SkinTabControl.ePageImagePosition.Left;
             this.tabControl1.PageNorml = null;
             this.tabControl1.PagePalace = true;
-            this.tabControl1.SelectedIndex = 5;
+            this.tabControl1.SelectedIndex = 1;
             this.tabControl1.Size = new System.Drawing.Size(1525, 790);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 1;
@@ -481,6 +481,7 @@
             // 
             // pl_FilmShow
             // 
+            this.pl_FilmShow.ContextMenuStrip = this.cms_ShuaXin;
             this.pl_FilmShow.Controls.Add(this.label8);
             this.pl_FilmShow.Controls.Add(this.pictureBox2);
             this.pl_FilmShow.Controls.Add(this.btn_Query);
@@ -869,6 +870,7 @@
             // tb_Seats
             // 
             this.tb_Seats.AutoScroll = true;
+            this.tb_Seats.ContextMenuStrip = this.cms_ShuaXin;
             this.tb_Seats.Controls.Add(this.label11);
             this.tb_Seats.Location = new System.Drawing.Point(4, 30);
             this.tb_Seats.Name = "tb_Seats";
@@ -1314,6 +1316,7 @@
             // 
             // tv_FilmInfo
             // 
+            this.tv_FilmInfo.ContextMenuStrip = this.cms_ShuaXin;
             this.tv_FilmInfo.Dock = System.Windows.Forms.DockStyle.Left;
             this.tv_FilmInfo.Location = new System.Drawing.Point(0, 0);
             this.tv_FilmInfo.Name = "tv_FilmInfo";
@@ -1639,6 +1642,7 @@
             // bt_one
             // 
             this.bt_one.BackColor = System.Drawing.SystemColors.Highlight;
+            this.bt_one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_one.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_one.ForeColor = System.Drawing.Color.White;
             this.bt_one.Location = new System.Drawing.Point(6, 4);
@@ -1674,6 +1678,7 @@
             // btn_Tui
             // 
             this.btn_Tui.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btn_Tui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Tui.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Tui.ForeColor = System.Drawing.Color.White;
             this.btn_Tui.Location = new System.Drawing.Point(210, 4);
@@ -1688,6 +1693,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(107, 4);
@@ -1714,6 +1720,7 @@
             this.D_Sheet,
             this.GeneratedTime,
             this.TicketingState});
+            this.dgv_dingdan.ContextMenuStrip = this.cms_ShuaXin;
             this.dgv_dingdan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgv_dingdan.Location = new System.Drawing.Point(9, 70);
             this.dgv_dingdan.Margin = new System.Windows.Forms.Padding(4);

@@ -60,7 +60,7 @@ namespace CinemaTicketSystem
             }
             try
             {
-                string sql = string.Format("select YH_Phone from UserInfo where YH_Name='{0}'", tb_RegisterName);
+                string sql = string.Format("select count(*) from UserInfo where YH_Name='{0}' and YH_Phone='{1}'", tb_RegisterName, tb_Phone.Text);
                 DataTable dt = DBHelper.GetDataTable(sql);
                 if (dt.Rows.Count == 0)
                 {
@@ -117,9 +117,9 @@ namespace CinemaTicketSystem
             }
             try
             {
-                string sql = string.Format("select YH_Phone from UserInfo where YH_Name='{0}'", tb_RegisterName);
+                string sql = string.Format("select YH_Phone from UserInfo where YH_Name='{0}'", tb_RegisterName.Text);
                 DataTable dt = DBHelper.GetDataTable(sql);
-                if (dt.Rows.Count < 0)
+                if (dt.Rows.Count == 0)
                 {
                     MessageBox.Show("该手机号码未与该账户绑定");
                     return;
@@ -160,7 +160,7 @@ namespace CinemaTicketSystem
                 return;
             }
 
-            string sql = string.Format("update UserInfo set YH_Pwd='{0}' where YH_Name='{1}'", tb_RegisterName,tb_ConfirmPwd.Text);
+            string sql = string.Format("update UserInfo set YH_Pwd='{0}' where YH_Name='{1}'" ,tb_ConfirmPwd.Text, tb_RegisterName.Text);
             try
             {
                 if (DBHelper.ExecuteNoneQuery(sql))

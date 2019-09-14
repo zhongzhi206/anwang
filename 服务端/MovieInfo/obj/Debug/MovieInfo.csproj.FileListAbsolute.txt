@@ -141,7 +141,6 @@ D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.AdmInfozheng.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FanKui.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FanNeiRong.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FilmArrange.resources
-D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.FilmSchedule.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.Movielogin.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.MovieMain.resources
 D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.MovieWeihu.resources
@@ -298,3 +297,4 @@ D:\桌面\anwang修改\服务端\MovieInfo\obj\Debug\MovieInfo.csproj.GenerateRe
 D:\桌面\anwang修改\服务端\MovieInfo\obj\Debug\MovieInfo.csproj.CoreCompileInputs.cache
 D:\桌面\anwang修改\服务端\MovieInfo\obj\Debug\MovieInfo.exe
 D:\桌面\anwang修改\服务端\MovieInfo\obj\Debug\MovieInfo.pdb
+D:\桌面\anwang\服务端\MovieInfo\obj\Debug\MovieInfo.BoxOffice.resources

@@ -35,6 +35,7 @@ namespace MovieInfo
             for (int i = 0; i < dtTing.Rows.Count; i++)
             {
                 cb_Ting.Items.Add(dtTing.Rows[i]["YT_Name"].ToString());
+                comboBox1.Items.Add(dtTing.Rows[i]["YT_Name"].ToString());
             }
             cb_Ting.DropDownStyle = ComboBoxStyle.DropDownList;
             //加载排片信息加载到dataGridView中
@@ -86,7 +87,7 @@ namespace MovieInfo
                 return;
             }
             MessageBox.Show("添加成功");
-            FilmArrange_Load(null, null);
+            Shua();
 
         }
 
@@ -152,9 +153,10 @@ namespace MovieInfo
 
             try
             {
-                cb_FilmName.Text = dgv_Film.SelectedRows[0].Cells[1].Value.ToString();
-                cb_Ting.Text = dgv_Film.SelectedRows[0].Cells[5].Value.ToString();
-                cb_Ting.Text = dgv_Film.SelectedRows[0].Cells[4].Value.ToString();
+                cb_FilmName.Text = dgv_Film.SelectedRows[0].Cells["PP_Name"].Value.ToString();
+                cb_Ting.Text = dgv_Film.SelectedRows[0].Cells["PP_Ting"].Value.ToString();
+                tb_price.Text= dgv_Film.SelectedRows[0].Cells["PP_Price"].Value.ToString();
+                dtp_PlayTime.Text= dgv_Film.SelectedRows[0].Cells["PP_StartTime"].Value.ToString();
             }
             catch (Exception)
             {
@@ -164,7 +166,71 @@ namespace MovieInfo
 
         private void bt_Update_Click(object sender, EventArgs e)
         {
+            //查询当前添加的电影时长
+            string duration = string.Format("select DY_Time from MovieInfo where DY_Name='{0}'", cb_FilmName.Text);
+            DataTable durations = DBHelper.GetDataTable(duration);
+            //计算出当前排片电影的结束时间
+            string endTime = Convert.ToDateTime(dtp_PlayTime.Text).AddMinutes(Convert.ToDouble(durations.Rows[0]["DY_Time"].ToString())).ToString();
+            //比较当前时间与添加时间，
+            DateTime date2 = Convert.ToDateTime(dtp_PlayTime.Text);
+            if (DateTime.Compare(date2, DateTime.Now) < 0)
+            {
+                MessageBox.Show("请选择正确的时间");
+                return;
+            }
+            //筛选出当前添加时间段是否安排过影片
+            string startTimeFanWei = string.Format("select PP_ID from FilmArrange where PP_Ting='{0}' and PP_StartTime BETWEEN '{1}' and '{2}' or PP_EndTime between '{1}' and '{2}'", cb_Ting.Text, dtp_PlayTime.Text, endTime);
+            DataTable dt = DBHelper.GetDataTable(startTimeFanWei);
+            if (dt.Rows.Count > 0)
+            {
+                MessageBox.Show("该影厅该时间段已有安排影片");
+                return;
+            }
+            string sql = string.Format("update FilmArrange set PP_Name='{0}',PP_StartTime='{1},PP_Ting='{2}',PP_Price='{3}' where PP_ID='{4}'", cb_FilmName.Text, dtp_PlayTime.Text, cb_Ting.Text, tb_price.Text, dgv_Film.SelectedRows[0].Cells["PP_ID"].Value.ToString());
+            if (DBHelper.ExecuteNoneQuery(sql))
+            {
+                MessageBox.Show("修改成功");
+                Shua();
+            }
+        }
 
+        private void 删除ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string sql = string.Format("delete FilmArrange where PP_ID='{0}'", dgv_Film.SelectedRows[0].Cells["PP_ID"].Value.ToString());
+            if (DBHelper.ExecuteNoneQuery(sql))
+            {
+                MessageBox.Show("删除成功");
+                Shua();
+            }
+        }
+        private void Shua()
+        {
+            string sql = "SELECT PP_ID , PP_Name  ,PP_StartTime ,PP_EndTime ,PP_Price ,PP_Ting FROM  FilmArrange";
+            dgv_Film.DataSource = DBHelper.GetDataTable(sql);
+        }
+
+        private void btn_one_Click(object sender, EventArgs e)
+        {
+            string sql = string.Format("SELECT PP_ID , PP_Name  ,PP_StartTime ,PP_EndTime ,PP_Price ,PP_Ting FROM  FilmArrange where PP_Name like '%{0}%'", tb_one.Text);
+            dgv_Film.DataSource = DBHelper.GetDataTable(sql);
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string sql = string.Format("SELECT PP_ID , PP_Name  ,PP_StartTime ,PP_EndTime ,PP_Price ,PP_Ting FROM  FilmArrange where PP_Ting like '%{0}%'", comboBox1.Text);
+            dgv_Film.DataSource = DBHelper.GetDataTable(sql);
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+            string sql = string.Format("SELECT PP_ID , PP_Name  ,PP_StartTime ,PP_EndTime ,PP_Price ,PP_Ting FROM  FilmArrange where PP_StartTime between '{0}' and '{1}'", dateTimePicker2.Text, dateTimePicker1.Text);
+            dgv_Film.DataSource = DBHelper.GetDataTable(sql);
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            string sql = string.Format("SELECT PP_ID , PP_Name  ,PP_StartTime ,PP_EndTime ,PP_Price ,PP_Ting FROM  FilmArrange where PP_StartTime between '{0}' and '{1}'", dateTimePicker2.Text, dateTimePicker1.Text);
+            dgv_Film.DataSource = DBHelper.GetDataTable(sql);
         }
     }
 }

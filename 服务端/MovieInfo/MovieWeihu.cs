@@ -172,8 +172,7 @@ namespace MovieInfo
                 return;
             }
 
-            string sql = string.Format(@"update MovieInfo set DY_Name='{0}',DY_Director='{1}',DY_Start='{2}',DY_Type='{3}',
-DY_Description='{4}',DY_Area='{5}  where DY_ID='{6}'", na, di, st, ty, ti, de, ar, dgv_cha.SelectedRows[0].Cells["ID"].Value.ToString());
+            string sql = string.Format(@"update MovieInfo set DY_Name='{0}',DY_Director='{1}',DY_Start='{2}',DY_Type='{3}',DY_Time='{4}',DY_Description='{5}',DY_Area='{6}' where DY_ID='{7}'", na, di, st, ty, ti, de, ar, dgv_cha.SelectedRows[0].Cells["ID"].Value.ToString());
             try
             {
                 if (DBHelper.ExecuteNoneQuery(sql))
@@ -201,13 +200,12 @@ DY_Description='{4}',DY_Area='{5}  where DY_ID='{6}'", na, di, st, ty, ti, de, a
             if (dgv_cha.SelectedRows.Count == 1)
             {
                 tb_name.Text = dgv_cha.SelectedRows[0].Cells["MName"].Value.ToString();
-                tb_director.Text = dgv_cha.SelectedRows[0].Cells[3].Value.ToString();
-                tb_start.Text = dgv_cha.SelectedRows[0].Cells[4].Value.ToString();
-                cb_type.Text = dgv_cha.SelectedRows[0].Cells[5].Value.ToString();
-                tb_time.Text = dgv_cha.SelectedRows[0].Cells[7].Value.ToString();
-                tb_description.Text = dgv_cha.SelectedRows[0].Cells[8].Value.ToString();
-                cb_area.Text = dgv_cha.SelectedRows[0].Cells[9].Value.ToString();
-
+                tb_start.Text = dgv_cha.SelectedRows[0].Cells["Start"].Value.ToString();
+                cb_type.Text = dgv_cha.SelectedRows[0].Cells["Type"].Value.ToString();
+                tb_time.Text = dgv_cha.SelectedRows[0].Cells["Time"].Value.ToString();
+                cb_area.Text = dgv_cha.SelectedRows[0].Cells["Area"].Value.ToString();
+                tb_director.Text = dgv_cha.SelectedRows[0].Cells["Director"].Value.ToString();
+                tb_description.Text= dgv_cha.SelectedRows[0].Cells["Description"].Value.ToString();
                 DirectoryInfo info = new DirectoryInfo(@"..\..\..\..\项目图片/电影海报");
                 string path;
                 FileInfo fileInfo = new FileInfo(@"..\..\..\..\项目图片/电影海报");
@@ -260,15 +258,15 @@ DY_Description='{4}',DY_Area='{5}  where DY_ID='{6}'", na, di, st, ty, ti, de, a
         {
             try
             {
-  string sql = string.Format("select * from MovieInfo where DY_Name like '%{0}%' or DY_Type like'%{1}%' or DY_Area like'%{1}%'", tb_one.Text, tb_one.Text, tb_one.Text);
+                string sql = string.Format("select * from MovieInfo where DY_Name like '%{0}%' or DY_Type like'%{1}%' or DY_Area like'%{1}%'", tb_one.Text, tb_one.Text, tb_one.Text);
             DataTable dt = DBHelper.GetDataTable(sql);
-            if (dt.Rows.Count > 0)
+            if (dt.Rows.Count == 0)
             {
-                dgv_cha.DataSource = DBHelper.GetDataTable(sql);
+               MessageBox.Show("查询不到该影片！");
             }
             else
             {
-                MessageBox.Show("查询不到该影片！");
+               dgv_cha.DataSource = DBHelper.GetDataTable(sql);
             }
             }
             catch (Exception)

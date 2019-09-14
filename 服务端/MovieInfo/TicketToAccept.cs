@@ -21,23 +21,21 @@ namespace MovieInfo
         {
             string sql = string.Format("select * from OrderInfo where TicketingState ='待退款' order by D_ID desc");
             dgv_dingdan.DataSource = DBHelper.GetDataTable(sql);
-
         }
         string playTime = "";
         private void cms_ShouLi_Click(object sender, EventArgs e)
         {
             playTime = dgv_dingdan.SelectedRows[0].Cells["PlayTimeo"].Value.ToString();
             string filName = dgv_dingdan.SelectedRows[0].Cells["DY_ID"].Value.ToString();
-            string fangYing = Convert.ToDateTime(playTime).ToString("yyyy-MM-dd");
-            string playTimes = Convert.ToDateTime(playTime).ToString("HH:mm:ss");
+            string playTimes = Convert.ToDateTime(playTime).ToString("yyyy-MM-dd HH:mm:ss");
             string tings = dgv_dingdan.SelectedRows[0].Cells["Tings"].Value.ToString();
-            tings = tings.Replace("号厅","");
+            string seats = dgv_dingdan.SelectedRows[0].Cells["D_SeatInfo"].Value.ToString();
             string sql = string.Format("update OrderInfo set TicketingState='退款成功' where D_ID='{0}'", dgv_dingdan.SelectedRows[0].Cells["D_ID"].Value.ToString()); 
-            string cha = string.Format("select DY_Seat from MovieInfo where DY_Name='{0}' and DY_Releasetime='{1}'and DY_PlayTime ='{2}' and DY_Ting='{3}'", filName, fangYing, playTimes, tings);
+            string cha = string.Format("select PP_Seat from FilmArrange where PP_Name='{0}' and PP_StartTime='{1}'and PP_Ting ='{2}'", filName, playTimes, tings);
             DataTable dt = DBHelper.GetDataTable(cha);
-            string zuo = dt.Rows[0]["DY_Seat"].ToString();
-            zuo = zuo.Replace(dgv_dingdan.SelectedRows[0].Cells["D_SeatInfo"].Value.ToString(), "");
-            string set = string.Format("update MovieInfo set DY_Seat='{0}' where DY_Name='{1}' and DY_Releasetime='{2}'and DY_PlayTime ='{3}' and DY_Ting='{4}'", zuo, filName, fangYing, playTimes, tings);
+            string zuo = dt.Rows[0]["PP_Seat"].ToString();
+            zuo = zuo.Replace(seats, "");
+            string set = string.Format("update FilmArrange set PP_Seat='{0}' where PP_Name='{1}' and PP_StartTime='{2}'and PP_Ting ='{3}' ", zuo, filName, playTimes, tings);
             
             if (DBHelper.ExecuteNoneQuery(sql)&& DBHelper.ExecuteNoneQuery(set))
             {
@@ -85,6 +83,7 @@ namespace MovieInfo
                 if (DBHelper.ExecuteNoneQuery(sql))
                 {
                     MessageBox.Show("执行成功");
+                    TicketToAccept_Load(null, null);
                     return;
                 }
                 MessageBox.Show("执行失败");
@@ -93,6 +92,11 @@ namespace MovieInfo
             {
                 MessageBox.Show("执行失败");
             }
+        }
+
+        private void 刷新ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TicketToAccept_Load(null,null);
         }
     }
 }

@@ -45,10 +45,11 @@
             this.tb_three = new System.Windows.Forms.NumericUpDown();
             this.tb_Describe = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.yingting = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hangshu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lianshu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Describe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_one)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_two)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_three)).BeginInit();
@@ -68,10 +69,11 @@
             // 
             this.dgv_one.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_one.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
             this.yingting,
+            this.ID,
             this.hangshu,
-            this.lianshu});
+            this.lianshu,
+            this.Describe});
             this.dgv_one.Location = new System.Drawing.Point(2, 106);
             this.dgv_one.Name = "dgv_one";
             this.dgv_one.RowTemplate.Height = 27;
@@ -201,21 +203,22 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 484);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 15);
+            this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 11;
-            this.label3.Text = "影厅名";
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "YT_ID";
-            this.ID.HeaderText = "影厅编号";
-            this.ID.Name = "ID";
+            this.label3.Text = "影厅描述";
             // 
             // yingting
             // 
             this.yingting.DataPropertyName = "YT_Name";
             this.yingting.HeaderText = "影厅名";
             this.yingting.Name = "yingting";
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "YT_ID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
             // 
             // hangshu
             // 
@@ -228,6 +231,12 @@
             this.lianshu.DataPropertyName = "YT_Col";
             this.lianshu.HeaderText = "影厅列数";
             this.lianshu.Name = "lianshu";
+            // 
+            // Describe
+            // 
+            this.Describe.DataPropertyName = "YT_Describe";
+            this.Describe.HeaderText = "影厅描述";
+            this.Describe.Name = "Describe";
             // 
             // SeatMain
             // 
@@ -279,11 +288,12 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.NumericUpDown tb_two;
         private System.Windows.Forms.NumericUpDown tb_three;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn yingting;
-        private System.Windows.Forms.DataGridViewTextBoxColumn hangshu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lianshu;
         private System.Windows.Forms.TextBox tb_Describe;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn yingting;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hangshu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lianshu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Describe;
     }
 }

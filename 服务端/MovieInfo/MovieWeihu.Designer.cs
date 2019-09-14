@@ -31,6 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MovieWeihu));
             this.dgv_cha = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DY_Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LX_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Director = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Start = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmp_delete = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_one = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_ShuaXin = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,16 +78,7 @@
             this.yingTingBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.darkNetDataSet4 = new MovieInfo.DarkNetDataSet4();
             this.yingTingTableAdapter = new MovieInfo.DarkNetDataSet4TableAdapters.YingTingTableAdapter();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DY_Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LX_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Director = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Start = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_cha)).BeginInit();
             this.cmp_delete.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.movieTypeBindingSource2)).BeginInit();
@@ -116,6 +117,80 @@
             this.dgv_cha.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_one_CellContentClick);
             this.dgv_cha.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_cha_CellContentClick);
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "DY_ID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ID.Visible = false;
+            // 
+            // DY_Type
+            // 
+            this.DY_Type.DataPropertyName = "DY_Type";
+            this.DY_Type.HeaderText = "影片类型ID";
+            this.DY_Type.Name = "DY_Type";
+            this.DY_Type.ReadOnly = true;
+            this.DY_Type.Visible = false;
+            // 
+            // LX_ID
+            // 
+            this.LX_ID.DataPropertyName = "LX_ID";
+            this.LX_ID.HeaderText = "类型ID";
+            this.LX_ID.Name = "LX_ID";
+            this.LX_ID.ReadOnly = true;
+            this.LX_ID.Visible = false;
+            // 
+            // MName
+            // 
+            this.MName.DataPropertyName = "DY_Name";
+            this.MName.HeaderText = "影片名";
+            this.MName.Name = "MName";
+            this.MName.ReadOnly = true;
+            // 
+            // Director
+            // 
+            this.Director.DataPropertyName = "DY_Director";
+            this.Director.HeaderText = "导演";
+            this.Director.Name = "Director";
+            this.Director.ReadOnly = true;
+            // 
+            // Start
+            // 
+            this.Start.DataPropertyName = "DY_Start";
+            this.Start.HeaderText = "主演";
+            this.Start.Name = "Start";
+            this.Start.ReadOnly = true;
+            // 
+            // Type
+            // 
+            this.Type.DataPropertyName = "DY_Type";
+            this.Type.HeaderText = "类型";
+            this.Type.Name = "Type";
+            this.Type.ReadOnly = true;
+            // 
+            // Time
+            // 
+            this.Time.DataPropertyName = "DY_Time";
+            this.Time.HeaderText = "时长";
+            this.Time.Name = "Time";
+            this.Time.ReadOnly = true;
+            // 
+            // Description
+            // 
+            this.Description.DataPropertyName = "DY_Description";
+            this.Description.HeaderText = "描述";
+            this.Description.Name = "Description";
+            this.Description.ReadOnly = true;
+            // 
+            // Area
+            // 
+            this.Area.DataPropertyName = "DY_Area";
+            this.Area.HeaderText = "区域";
+            this.Area.Name = "Area";
+            this.Area.ReadOnly = true;
+            // 
             // cmp_delete
             // 
             this.cmp_delete.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -142,7 +217,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(65, 455);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 15);
@@ -160,7 +235,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(81, 555);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 15);
@@ -178,7 +253,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(81, 507);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 15);
@@ -196,7 +271,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(81, 611);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 15);
@@ -206,8 +281,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(356, 455);
+            this.label5.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(300, 454);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 15);
             this.label5.TabIndex = 5;
@@ -216,15 +291,15 @@
             // tb_time
             // 
             this.tb_time.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tb_time.Location = new System.Drawing.Point(427, 452);
+            this.tb_time.Location = new System.Drawing.Point(371, 451);
             this.tb_time.Name = "tb_time";
-            this.tb_time.Size = new System.Drawing.Size(109, 25);
+            this.tb_time.Size = new System.Drawing.Size(65, 25);
             this.tb_time.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(624, 455);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 15);
@@ -234,8 +309,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(356, 506);
+            this.label7.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Location = new System.Drawing.Point(300, 505);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(55, 15);
             this.label7.TabIndex = 5;
@@ -244,16 +319,17 @@
             // tb_description
             // 
             this.tb_description.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tb_description.Location = new System.Drawing.Point(427, 505);
+            this.tb_description.Location = new System.Drawing.Point(371, 504);
+            this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
-            this.tb_description.Size = new System.Drawing.Size(109, 25);
+            this.tb_description.Size = new System.Drawing.Size(170, 159);
             this.tb_description.TabIndex = 6;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(356, 562);
+            this.label9.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Location = new System.Drawing.Point(87, 662);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(55, 15);
             this.label9.TabIndex = 5;
@@ -305,7 +381,7 @@
             this.cb_area.FormattingEnabled = true;
             this.cb_area.ImeMode = System.Windows.Forms.ImeMode.On;
             this.cb_area.Items.AddRange(new object[] {
-            "中国大陆",
+            "大陆",
             "中国台湾",
             "中国香港",
             "日本",
@@ -314,14 +390,14 @@
             "泰国",
             "美国",
             "英国"});
-            this.cb_area.Location = new System.Drawing.Point(427, 556);
+            this.cb_area.Location = new System.Drawing.Point(158, 656);
             this.cb_area.Name = "cb_area";
             this.cb_area.Size = new System.Drawing.Size(109, 23);
             this.cb_area.TabIndex = 9;
             // 
             // bt_add
             // 
-            this.bt_add.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt_add.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_add.Location = new System.Drawing.Point(887, 507);
             this.bt_add.Name = "bt_add";
             this.bt_add.Size = new System.Drawing.Size(114, 35);
@@ -332,7 +408,7 @@
             // 
             // bt_update
             // 
-            this.bt_update.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt_update.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt_update.Location = new System.Drawing.Point(887, 590);
             this.bt_update.Name = "bt_update";
             this.bt_update.Size = new System.Drawing.Size(114, 35);
@@ -420,79 +496,15 @@
             // 
             this.yingTingTableAdapter.ClearBeforeFill = true;
             // 
-            // ID
+            // label8
             // 
-            this.ID.DataPropertyName = "DY_ID";
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ID.Visible = false;
-            // 
-            // DY_Type
-            // 
-            this.DY_Type.DataPropertyName = "DY_Type";
-            this.DY_Type.HeaderText = "影片类型ID";
-            this.DY_Type.Name = "DY_Type";
-            this.DY_Type.ReadOnly = true;
-            this.DY_Type.Visible = false;
-            // 
-            // LX_ID
-            // 
-            this.LX_ID.DataPropertyName = "LX_ID";
-            this.LX_ID.HeaderText = "类型ID";
-            this.LX_ID.Name = "LX_ID";
-            this.LX_ID.ReadOnly = true;
-            this.LX_ID.Visible = false;
-            // 
-            // MName
-            // 
-            this.MName.DataPropertyName = "DY_Name";
-            this.MName.HeaderText = "影片名";
-            this.MName.Name = "MName";
-            this.MName.ReadOnly = true;
-            // 
-            // Director
-            // 
-            this.Director.DataPropertyName = "DY_Director";
-            this.Director.HeaderText = "导演";
-            this.Director.Name = "Director";
-            this.Director.ReadOnly = true;
-            // 
-            // Start
-            // 
-            this.Start.DataPropertyName = "DY_Start";
-            this.Start.HeaderText = "主演";
-            this.Start.Name = "Start";
-            this.Start.ReadOnly = true;
-            // 
-            // Type
-            // 
-            this.Type.DataPropertyName = "DY_Type";
-            this.Type.HeaderText = "类型";
-            this.Type.Name = "Type";
-            this.Type.ReadOnly = true;
-            // 
-            // Time
-            // 
-            this.Time.DataPropertyName = "DY_Time";
-            this.Time.HeaderText = "时长";
-            this.Time.Name = "Time";
-            this.Time.ReadOnly = true;
-            // 
-            // Description
-            // 
-            this.Description.DataPropertyName = "DY_Description";
-            this.Description.HeaderText = "描叙";
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            // 
-            // Area
-            // 
-            this.Area.DataPropertyName = "DY_Area";
-            this.Area.HeaderText = "区域";
-            this.Area.Name = "Area";
-            this.Area.ReadOnly = true;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Location = new System.Drawing.Point(451, 457);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(39, 15);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "分钟";
             // 
             // MovieWeihu
             // 
@@ -500,6 +512,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1139, 770);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btn_one);
             this.Controls.Add(this.tb_one);
             this.Controls.Add(this.label11);
@@ -584,6 +597,7 @@
         private DarkNetDataSet4 darkNetDataSet4;
         private System.Windows.Forms.BindingSource yingTingBindingSource;
         private DarkNetDataSet4TableAdapters.YingTingTableAdapter yingTingTableAdapter;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn DY_Type;
         private System.Windows.Forms.DataGridViewTextBoxColumn LX_ID;

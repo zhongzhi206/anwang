@@ -38,17 +38,17 @@
             this.lb_RegisterName = new System.Windows.Forms.Label();
             this.tm_AuthCode = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tb_ConfirmPwd = new System.Windows.Forms.TextBox();
             this.tb_RegisterPwd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tb_Phone
             // 
-            this.tb_Phone.Font = new System.Drawing.Font("宋体", 18F);
+            this.tb_Phone.Font = new System.Drawing.Font("SimSun", 18F);
             this.tb_Phone.Location = new System.Drawing.Point(289, 200);
             this.tb_Phone.Multiline = true;
             this.tb_Phone.Name = "tb_Phone";
@@ -59,7 +59,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("宋体", 22.2F);
+            this.label3.Font = new System.Drawing.Font("SimSun", 22.2F);
             this.label3.Location = new System.Drawing.Point(66, 205);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 38);
@@ -68,7 +68,7 @@
             // 
             // tb_AuthCode
             // 
-            this.tb_AuthCode.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tb_AuthCode.Font = new System.Drawing.Font("SimSun", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tb_AuthCode.Location = new System.Drawing.Point(289, 284);
             this.tb_AuthCode.Name = "tb_AuthCode";
             this.tb_AuthCode.Size = new System.Drawing.Size(337, 28);
@@ -79,7 +79,7 @@
             this.btn_AuthCode.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_AuthCode.FlatAppearance.BorderSize = 0;
             this.btn_AuthCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AuthCode.Font = new System.Drawing.Font("宋体", 12F);
+            this.btn_AuthCode.Font = new System.Drawing.Font("SimSun", 12F);
             this.btn_AuthCode.ForeColor = System.Drawing.Color.White;
             this.btn_AuthCode.Location = new System.Drawing.Point(108, 282);
             this.btn_AuthCode.Name = "btn_AuthCode";
@@ -93,7 +93,7 @@
             // 
             this.btn_Register.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn_Register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Register.Font = new System.Drawing.Font("宋体", 12F);
+            this.btn_Register.Font = new System.Drawing.Font("SimSun", 12F);
             this.btn_Register.ForeColor = System.Drawing.Color.White;
             this.btn_Register.Location = new System.Drawing.Point(215, 352);
             this.btn_Register.Name = "btn_Register";
@@ -105,7 +105,7 @@
             // 
             // tb_RegisterName
             // 
-            this.tb_RegisterName.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tb_RegisterName.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tb_RegisterName.ForeColor = System.Drawing.Color.Black;
             this.tb_RegisterName.Location = new System.Drawing.Point(289, 106);
             this.tb_RegisterName.Name = "tb_RegisterName";
@@ -116,7 +116,7 @@
             // 
             this.lb_RegisterName.AutoSize = true;
             this.lb_RegisterName.BackColor = System.Drawing.Color.Transparent;
-            this.lb_RegisterName.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lb_RegisterName.Font = new System.Drawing.Font("SimSun", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lb_RegisterName.Location = new System.Drawing.Point(142, 106);
             this.lb_RegisterName.Name = "lb_RegisterName";
             this.lb_RegisterName.Size = new System.Drawing.Size(112, 38);
@@ -142,9 +142,23 @@
             this.panel1.TabIndex = 19;
             this.panel1.Visible = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("SimSun", 12F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(236, 300);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(299, 46);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "确认";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // tb_ConfirmPwd
             // 
-            this.tb_ConfirmPwd.Font = new System.Drawing.Font("宋体", 18F);
+            this.tb_ConfirmPwd.Font = new System.Drawing.Font("SimSun", 18F);
             this.tb_ConfirmPwd.ForeColor = System.Drawing.Color.Silver;
             this.tb_ConfirmPwd.Location = new System.Drawing.Point(308, 206);
             this.tb_ConfirmPwd.Name = "tb_ConfirmPwd";
@@ -155,7 +169,7 @@
             // 
             // tb_RegisterPwd
             // 
-            this.tb_RegisterPwd.Font = new System.Drawing.Font("宋体", 18F);
+            this.tb_RegisterPwd.Font = new System.Drawing.Font("SimSun", 18F);
             this.tb_RegisterPwd.ForeColor = System.Drawing.Color.Silver;
             this.tb_RegisterPwd.Location = new System.Drawing.Point(308, 130);
             this.tb_RegisterPwd.Name = "tb_RegisterPwd";
@@ -168,7 +182,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("宋体", 22.2F);
+            this.label2.Font = new System.Drawing.Font("SimSun", 22.2F);
             this.label2.Location = new System.Drawing.Point(85, 206);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(188, 38);
@@ -179,26 +193,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("宋体", 22.2F);
+            this.label1.Font = new System.Drawing.Font("SimSun", 22.2F);
             this.label1.Location = new System.Drawing.Point(161, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 38);
             this.label1.TabIndex = 4;
             this.label1.Text = "密码:";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("宋体", 12F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(236, 300);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(299, 46);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "确认";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // RetrievePassword
             // 

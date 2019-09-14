@@ -32,12 +32,14 @@
             this.ms_main = new System.Windows.Forms.MenuStrip();
             this.tsmi_yonghu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.订单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_yingpian = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_weihu = new System.Windows.Forms.ToolStripMenuItem();
+            this.排片管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.影厅维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.票房查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_guanli = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_wwei = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmi_new = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmi_Xintwo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_Fan = new System.Windows.Forms.ToolStripMenuItem();
             this.ms_main.SuspendLayout();
             this.SuspendLayout();
@@ -49,7 +51,6 @@
             this.tsmi_yonghu,
             this.tsmi_yingpian,
             this.tsmi_guanli,
-            this.tsmi_new,
             this.tsm_Fan});
             this.ms_main.Location = new System.Drawing.Point(0, 0);
             this.ms_main.Name = "ms_main";
@@ -60,7 +61,8 @@
             // tsmi_yonghu
             // 
             this.tsmi_yonghu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.toolStripMenuItem1,
+            this.订单ToolStripMenuItem});
             this.tsmi_yonghu.Name = "tsmi_yonghu";
             this.tsmi_yonghu.Size = new System.Drawing.Size(81, 24);
             this.tsmi_yonghu.Text = "用户管理";
@@ -68,14 +70,24 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(138, 24);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(144, 26);
             this.toolStripMenuItem1.Text = "用户维护";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // 订单ToolStripMenuItem
+            // 
+            this.订单ToolStripMenuItem.Name = "订单ToolStripMenuItem";
+            this.订单ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.订单ToolStripMenuItem.Text = "订单管理";
+            this.订单ToolStripMenuItem.Click += new System.EventHandler(this.订单ToolStripMenuItem_Click);
             // 
             // tsmi_yingpian
             // 
             this.tsmi_yingpian.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmi_weihu});
+            this.tsmi_weihu,
+            this.排片管理ToolStripMenuItem,
+            this.影厅维护ToolStripMenuItem,
+            this.票房查询ToolStripMenuItem});
             this.tsmi_yingpian.Name = "tsmi_yingpian";
             this.tsmi_yingpian.Size = new System.Drawing.Size(81, 24);
             this.tsmi_yingpian.Text = "影片管理";
@@ -83,9 +95,30 @@
             // tsmi_weihu
             // 
             this.tsmi_weihu.Name = "tsmi_weihu";
-            this.tsmi_weihu.Size = new System.Drawing.Size(138, 24);
+            this.tsmi_weihu.Size = new System.Drawing.Size(144, 26);
             this.tsmi_weihu.Text = "影片维护";
             this.tsmi_weihu.Click += new System.EventHandler(this.tsmi_weihu_Click);
+            // 
+            // 排片管理ToolStripMenuItem
+            // 
+            this.排片管理ToolStripMenuItem.Name = "排片管理ToolStripMenuItem";
+            this.排片管理ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.排片管理ToolStripMenuItem.Text = "排片管理";
+            this.排片管理ToolStripMenuItem.Click += new System.EventHandler(this.排片管理ToolStripMenuItem_Click);
+            // 
+            // 影厅维护ToolStripMenuItem
+            // 
+            this.影厅维护ToolStripMenuItem.Name = "影厅维护ToolStripMenuItem";
+            this.影厅维护ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.影厅维护ToolStripMenuItem.Text = "影厅维护";
+            this.影厅维护ToolStripMenuItem.Click += new System.EventHandler(this.影厅维护ToolStripMenuItem_Click);
+            // 
+            // 票房查询ToolStripMenuItem
+            // 
+            this.票房查询ToolStripMenuItem.Name = "票房查询ToolStripMenuItem";
+            this.票房查询ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.票房查询ToolStripMenuItem.Text = "票房查询";
+            this.票房查询ToolStripMenuItem.Click += new System.EventHandler(this.票房查询ToolStripMenuItem_Click);
             // 
             // tsmi_guanli
             // 
@@ -98,24 +131,9 @@
             // tsmi_wwei
             // 
             this.tsmi_wwei.Name = "tsmi_wwei";
-            this.tsmi_wwei.Size = new System.Drawing.Size(153, 24);
+            this.tsmi_wwei.Size = new System.Drawing.Size(159, 26);
             this.tsmi_wwei.Text = "管理员维护";
             this.tsmi_wwei.Click += new System.EventHandler(this.tsmi_wwei_Click);
-            // 
-            // tsmi_new
-            // 
-            this.tsmi_new.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmi_Xintwo});
-            this.tsmi_new.Name = "tsmi_new";
-            this.tsmi_new.Size = new System.Drawing.Size(81, 24);
-            this.tsmi_new.Text = "新闻管理";
-            // 
-            // tsmi_Xintwo
-            // 
-            this.tsmi_Xintwo.Name = "tsmi_Xintwo";
-            this.tsmi_Xintwo.Size = new System.Drawing.Size(138, 24);
-            this.tsmi_Xintwo.Text = "新闻维护";
-            this.tsmi_Xintwo.Click += new System.EventHandler(this.tsmi_Xintwo_Click);
             // 
             // tsm_Fan
             // 
@@ -157,8 +175,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem tsmi_guanli;
         private System.Windows.Forms.ToolStripMenuItem tsmi_wwei;
-        private System.Windows.Forms.ToolStripMenuItem tsmi_new;
-        private System.Windows.Forms.ToolStripMenuItem tsmi_Xintwo;
         private System.Windows.Forms.ToolStripMenuItem tsm_Fan;
+        private System.Windows.Forms.ToolStripMenuItem 排片管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 影厅维护ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 订单ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 票房查询ToolStripMenuItem;
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="AdmInfozheng.Designer.cs">
       <DependentUpon>AdmInfozheng.cs</DependentUpon>
     </Compile>
+    <Compile Include="BoxOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxOffice.Designer.cs">
+      <DependentUpon>BoxOffice.cs</DependentUpon>
+    </Compile>
     <Compile Include="DarkNetDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,12 +107,6 @@
     </Compile>
     <Compile Include="FilmArrange.Designer.cs">
       <DependentUpon>FilmArrange.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FilmSchedule.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilmSchedule.Designer.cs">
-      <DependentUpon>FilmSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="Movielogin.cs">
       <SubType>Form</SubType>
@@ -158,6 +158,9 @@
     <EmbeddedResource Include="AdmInfozheng.resx">
       <DependentUpon>AdmInfozheng.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BoxOffice.resx">
+      <DependentUpon>BoxOffice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FanKui.resx">
       <DependentUpon>FanKui.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,9 +169,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FilmArrange.resx">
       <DependentUpon>FilmArrange.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilmSchedule.resx">
-      <DependentUpon>FilmSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Movielogin.resx">
       <DependentUpon>Movielogin.cs</DependentUpon>

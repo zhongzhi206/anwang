@@ -450,7 +450,7 @@ namespace CinemaTicketSystem
                 Men(pl_Top.BackColor);
                 return;
             }
-            string sql = string.Format("select PP_Name from FilmArrange fa, MovieInfo mi where fa.PP_Name like'%{0}%' or mi.DY_Director like'%{0}%' or mi.DY_Type like'%{0}%' or mi.DY_Area like'%{0}%'   group by PP_Name", cb_Query.Text);
+            string sql = string.Format("select PP_Name from FilmArrange fa, MovieInfo mi where fa.PP_Name like'%{0}%' or mi.DY_Director like'%{0}%' or mi.DY_Type like'%{0}%' or mi.DY_Area like'%{0}%' group by PP_Name", cb_Query.Text);
             Seach(sql);
         }
 
@@ -480,6 +480,8 @@ namespace CinemaTicketSystem
         
         private void tsm_ShuaXin_Click(object sender, EventArgs e)
         {
+            SeatShua();
+            UserInfor();
             lv_FlimShow.Clear();
             TreeFilemShow();
             FlimeShow();
@@ -504,6 +506,8 @@ namespace CinemaTicketSystem
             Men(pl_Top.BackColor);
             btn_Pay.BackColor = color;
             btn_UsrFeedback.BackColor = color;
+            button1.BackColor = color;
+            btn_Tui.BackColor = color;
         }
         private void label3_Click(object sender, EventArgs e)
         {
@@ -540,7 +544,7 @@ namespace CinemaTicketSystem
                 tv_FilmInfo.Nodes.Add(treeRoot);
 
                 //查询所有电影的上映日期
-                string filDate = string.Format("select PP_StartTime from FilmArrange group by PP_StartTime", tvName);
+                string filDate = string.Format("select PP_StartTime from FilmArrange where PP_Name='{0}' group by PP_StartTime ", tvName);
                 DataTable dtdate = DBHelper.GetDataTable(filDate);
                 for (int j = 0; j < dtdate.Rows.Count; j++)
                 {
@@ -1114,12 +1118,20 @@ namespace CinemaTicketSystem
         private void btn_VIP_Click(object sender, EventArgs e)
         {
             string sql = string.Format("select sum(SumPrice) from OrderInfo where UserName='{0}'",UserName);
+            string sql2 = string.Format("select D_ID from OrderInfo where UserName='{0}'", UserName);
+            DataTable dt = DBHelper.GetDataTable(sql2);
+            if (dt.Rows.Count==0)
+            {
+                MessageBox.Show("您暂未在本影院消费，无法升级");
+                return;
+            }
             if (Convert.ToDouble(DBHelper.ExecuteScalar(sql)) > 300)
             {
                 string up = string.Format("update UserInfo set YH_VIP='1' where YH_Name='{0}'", UserName);
                 if (DBHelper.ExecuteNoneQuery(up))
                 {
                     MessageBox.Show("您已升级为尊贵的VIP，会员享受票价85折优惠");
+                    label36.Visible = true;
                     return;
                 }
                 else

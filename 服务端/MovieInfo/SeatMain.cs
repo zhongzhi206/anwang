@@ -19,7 +19,8 @@ namespace MovieInfo
 
         private void SeatMain_Load(object sender, EventArgs e)
         {
-            
+            string sql = string.Format("select * from YingTing");
+            dgv_one.DataSource = DBHelper.GetDataTable(sql);
         }
 
         private void btn_geng_Click(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace MovieInfo
 
         private void btn_one_Click(object sender, EventArgs e)
         {
-            string sql = string.Format("select * from    dbo.YingTing where YT_Name like '%{0}%' or YT_date like'%{1}%'",tb_cha.Text,tb_cha.Text);
+            string sql = string.Format("select * from dbo.YingTing where YT_Name like '%{0}%' ",tb_cha.Text);
             DataTable dt = DBHelper.GetDataTable(sql);
             if (dt.Rows.Count > 0)
             {
@@ -52,6 +53,7 @@ namespace MovieInfo
              if (DBHelper.ExecuteNoneQuery(sql))
              {
                 MessageBox.Show("添加成功！");
+                SeatMain_Load(null, null);
                 tb_one.Text = "";
                 tb_two.Text = "";
                 tb_three.Text = "";
@@ -81,6 +83,7 @@ namespace MovieInfo
             if (DBHelper.ExecuteNoneQuery(sql))
             {
                 MessageBox.Show("修改成功");
+                SeatMain_Load(null, null);
                 tb_one.Text = "";
                 tb_Describe.Text = "";
                 tb_two.Text = "";
@@ -96,9 +99,11 @@ namespace MovieInfo
         private void button1_Click(object sender, EventArgs e)
         {
             string sql = string.Format("delete YingTing where YT_ID='{0}'", dgv_one.SelectedRows[0].Cells["ID"].Value.ToString());
+            string sql2 = string.Format("delete FilmArrange where PP_Ting='{0}'", dgv_one.SelectedRows[0].Cells["yingting"].Value.ToString());
             if (DBHelper.ExecuteNoneQuery(sql))
             {
                 MessageBox.Show("删除成功");
+                SeatMain_Load(null, null);
                 tb_one.Text = "";
                 tb_two.Text = "";
                 tb_three.Text = "";
@@ -106,7 +111,7 @@ namespace MovieInfo
             }
             else
             {
-                MessageBox.Show("删除成功");
+                MessageBox.Show("删除失败");
             }
         }
 
